@@ -11,13 +11,12 @@ h2{
 	text-align:center;
 	font-size: 30px;
 	margin-top:20px;
-	font-family: Calibri
+	font-family: Calibri;
 }
 .topnav {
   overflow: hidden;
-  background-color: #495867;
+  background-color: #1d3557;
 	text-align:center;
-	
 }
 
 .topnav  a{
@@ -27,10 +26,26 @@ h2{
   padding: 20px 30px;
  text-decoration: none;
   font-size: 40px;
-
 }
 
 .topnav a.active {
   background-color: #577399;
   color: white;
+}
+
+.sidenav {
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	left:5;
+background-color:#457b9d;
+overflow-x:hidden;
+}
+.sidenav a{
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size:25px;
+color:white;
+display:block;
 }
