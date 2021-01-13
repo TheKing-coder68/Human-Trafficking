@@ -1,0 +1,30 @@
+
+h1{
+	color:rgb(30, 30, 148);
+	text-align:center;
+	font-size:40px;
+	margin-top:20px;
+	font-family: Calibri
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #495867;
+	text-align:center;
+	
+}
+
+.topnav  a{
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+ text-decoration: none;
+  font-size: 40px;
+
+}
+
+.topnav a.active {
+  background-color: #577399;
+  color: white;
+}
