@@ -1,20 +1,24 @@
 
+
+html{
+
+}
 h1{
-	color:rgb(30, 30, 148);
+	color:#e63946;
 	text-align:center;
 	font-size:40px;
-	margin-top:20px;
+	margin-top:30px;
 	font-family: Calibri;
 }
 h2{
-	color:rgb(30, 30, 148);
+	color:#e63946;
 	text-align:center;
 	font-size: 30px;
 	margin-top:20px;
 	font-family: Calibri;
 }
 h3{
-	color:rgb(30,30,148);
+	color:#e63946;
 	text-align:center;
 	font-size: 25px;
 	margin-top:20px;
@@ -24,15 +28,25 @@ h3{
   overflow: hidden;
   background-color: #1d3557;
 	text-align:center;
+	top:0;
+	position:fixed;
 }
-
+.sidenav {
+	height:80%;
+	width:240px;
+	position:fixed;
+	z-index:-1;
+	left:5;
+background-color:#457b9d;
+overflow-x:hidden;
+}
 .topnav  a{
   float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 20px 30px;
  text-decoration: none;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .topnav a.active {
@@ -40,17 +54,9 @@ h3{
   color: white;
 }
 
-.sidenav {
-	height:100%;
-	width:240px;
-	position:fixed;
-	z-index:1;
-	left:5;
-background-color:#457b9d;
-overflow-x:hidden;
-}
+
 .sidenav a{
-	margin-top:10px;
+	margin-top:30px;
 padding: 6px 8px 6px 16px;
 text-decoration: none;
 font-size:25px;
@@ -58,7 +64,12 @@ color:white;
 display:block;
 }
 .main{
+margin-top:50px;
 margin-left:250px;
-
-
+}
+.pics{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
