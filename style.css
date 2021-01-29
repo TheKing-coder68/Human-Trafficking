@@ -1,7 +1,5 @@
-
-
 html{
-
+	background-color:#293241;
 }
 h1{
 	color:#e63946;
@@ -31,16 +29,8 @@ h3{
 	top:0;
 	position:fixed;
 }
-.sidenav {
-	height:80%;
-	width:240px;
-	position:fixed;
-	z-index:-1;
-	left:5;
-background-color:#457b9d;
-overflow-x:hidden;
-}
-.topnav  a{
+
+.topnav a{
   float: center;
   color: #f2f2f2;
   text-align: center;
@@ -50,26 +40,39 @@ overflow-x:hidden;
 }
 
 .topnav a.active {
-  background-color: #e63946;
-  color: white;
+background-color: #e63946;
+color: white;
 }
 
-
-.sidenav a{
-	margin-top:30px;
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size:25px;
-color:white;
-display:block;
-}
-.main{
-margin-top:50px;
-margin-left:250px;
-}
 .pics{
 display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+margin-top:50px;
+margin-left:250px;
+width: 50%;
+}
+
+.main {
+  padding: 20px;
+	color: white;
+	background-color: #293241;
+	text-align:center;
+	height:100%;
+}
+
+.source {
+  padding: 20px;
+	color: white;
+	background-color: #293241;
+	text-align:center;
+	height:100%;
+	font-size: 20px;
+}
+
+.about{
+ padding: 40px;
+ color: white;
+	background-color: #293241;
+	text-align:center;
+	height:100%;
+	font-size: 20px;
 }
