@@ -1,5 +1,5 @@
 html{
-	background-color:#293241;
+	background-color:white;
 }
 h1{
 	color:#e63946;
@@ -28,6 +28,7 @@ h3{
 	text-align:center;
 	top:0;
 	position:fixed;
+	margin:auto;
 }
 
 .topnav a{
@@ -53,8 +54,8 @@ width: 50%;
 
 .main {
   padding: 20px;
-	color: white;
-	background-color: #293241;
+	color: black;
+	background-color: white;
 	text-align:center;
 	height:100%;
 }
